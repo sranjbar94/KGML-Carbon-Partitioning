@@ -1,7 +1,7 @@
 # KGML Carbon Partitioning
 
 **Reference:**  
-Ranjbar, S., Desai, A. R., Hoffman, S., & Stoy, P. C. (2025). *Constrained carbon partitioning: a self-trained physics-informed machine learning model reduces GPP overestimation from eddy covariance measurements*.
+Ranjbar, S., Desai, A. R., Hoffman, S., & Stoy, P. C. (2025). *Constrained carbon partitioning: a self-trained physics-informed machine learning model to partition carbon measurements into GPP and RECO from eddy covariance measurements*.
 
 This repository contains code and datasets for the KGML-based carbon partitioning framework. It includes:
 
