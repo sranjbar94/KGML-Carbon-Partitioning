@@ -32,7 +32,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 import copy, math, random, tqdm
 
 """# Data Loading"""
-
 # Update the path below to the folder where 'KGML_ET_Partitioned.csv' is located
 df_path = '.../partitioned_data/KGML Carbon Patition Dataset.csv'
 data = pd.read_csv(df_path)
