@@ -9,8 +9,8 @@ This repository contains code for the study:
 
 **Constrained carbon partitioning: a self-trained physics-informed machine learning model reduces GPP overestimation from eddy covariance measurements**  
 *Sadegh Ranjbar1, Ankur R. Desai2, Sophie Hoffman1, Paul C. Stoy1*  
-1Department of Biological Systems Engineering, University of Wisconsin – Madison  
-2Department of Atmospheric and Oceanic Sciences, University of Wisconsin – Madison  
+1 Department of Biological Systems Engineering, University of Wisconsin – Madison  
+2 Department of Atmospheric and Oceanic Sciences, University of Wisconsin – Madison  
 
 ---
 
