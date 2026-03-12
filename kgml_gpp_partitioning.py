@@ -11,7 +11,6 @@ Original file is located at
 
 # If 'KGML_ET_Partitioned.csv' is stored on Google Drive and you're using Colab,
 # you need to mount your Google Drive first. Uncomment and run the following lines:
-
 # from google.colab import drive
 # drive.mount('/content/drive')
 
