@@ -136,7 +136,7 @@ class KGML_SelfSup(nn.Module):
         GPP = torch.clamp(GPP, min=0.0)
 
         # --- Respiration ---
-        coe_gpp_auto_abv0 = 0.05 + 0.55 * torch.sigmoid(self.coe_gpp_auto_abv0_raw)
+        coe_gpp_auto_abv0 = 0.05 + 0.54 * torch.sigmoid(self.coe_gpp_auto_abv0_raw)
         R_auto_above, R_auto_below = F.softplus(self.r_auto_head(z)).chunk(2, dim=-1)
         R_auto_above = R_auto_above + coe_gpp_auto_abv0 * GPP
         R_auto = R_auto_above + R_auto_below
@@ -278,7 +278,7 @@ print(df.shape)
 df = df[REQUIRED_COLS + ['hour', 'doy']+ ceaComponants].dropna().copy()
 
 # Clip extremes
-df = df.clip(lower=df.quantile(0.000001), upper=df.quantile(0.999999), axis=1)
+df = df.clip(lower=df.quantile(0.00001), upper=df.quantile(0.99999), axis=1)
 
 # Column index map
 col_index = {c: i for i, c in enumerate(df.columns)}
